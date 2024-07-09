@@ -58,3 +58,9 @@ ul li {
   border-radius: 8px;
   text-align: center;
 }
+
+li,
+input,
+button {
+  cursor: pointer;
+}
