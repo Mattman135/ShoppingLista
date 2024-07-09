@@ -30,7 +30,7 @@ addButtonEl.addEventListener("click", function () {
 
 onValue(shoppingListInDB, function (snapshot) {
   if (!snapshot.exists()) {
-    shoppingListEl.innerHTML = "No items here... yet!"
+    shoppingListEl.innerHTML = "Man ska inte handla när man är hungrig!"
   } else {
     let shoppingListArray = Object.entries(snapshot.val())
 
